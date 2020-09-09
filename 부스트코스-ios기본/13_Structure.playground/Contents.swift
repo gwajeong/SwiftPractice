@@ -10,7 +10,6 @@ import UIKit
 struct Sample {
     var mutableProperty: Int = 100 // 가변 프로퍼티
     let immutableProperty: Int = 100 // 불변 프로퍼티
-    
     static var typeProperty: Int = 100 // 타입 프로퍼티
     
     //인스턴스 메서드

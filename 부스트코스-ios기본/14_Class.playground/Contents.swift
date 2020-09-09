@@ -7,14 +7,9 @@ import UIKit
 
 // 프로퍼티 및 메서드 구현
 class Sample {
-    // 가변 프로퍼티
-    var mutablaProperty: Int = 100
-    
-    // 불변 프로퍼티
-    let immutableProperty: Int = 100
-    
-    // 타입 프로퍼티
-    static var typeProperty: Int = 100
+    var mutablaProperty: Int = 100 // 가변 프로퍼티
+    let immutableProperty: Int = 100 // 불변 프로퍼티
+    static var typeProperty: Int = 100 // 타입 프로퍼티
     
     // 인스턴스 메서드
     func instanceMethod(){
